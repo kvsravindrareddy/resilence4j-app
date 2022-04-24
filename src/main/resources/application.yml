@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: airtelapp
+#          uri: http://localhost:8080
+#          predicates:
+
+ #         filters:
+ #           - RewritePath: /healthcare/(?<path>.*), /$\{path}
+  application:
+    name: resilence4j-app
